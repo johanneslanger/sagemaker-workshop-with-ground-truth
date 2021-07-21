@@ -48,6 +48,32 @@ per workshop participant you will need:
 git clone https://github.com/johanneslanger/sagemaker-workshop-with-ground-truth
 ```
 
+- In the file browser on the left open following notebook 
+```bash
+sagemaker-workshop-with-ground-truth/ground_truth_object_detection_tutorial/object_detection_tutorial.ipynb
+```
+- When prompted select the Kernel `Python 3 (Data Science)``
+
+![kernel](/doc/kernel-ds.png)
+
+- Follow the instructions of the notebook
+
+```diff
+! Note only one workshop participant should create a private workteam for the labeling job. 
+! The labeling job should only be kicked off by a single participant. 
+! The rest of the notebook can be done by all workshop particpiants!
+```
+
+
+## Lab 2 - TensorFlow 2 Complete Project Workflow in Amazon SageMaker
+
+- Make sure you have cloned the repository to your SageMaker Studio environment as shown in lab 1. 
+- Then open following notebook and follow the instructions
+
+```
+sagemaker-workshop-with-ground-truth/tf-2-workflow-smpipelines/tf-2-workflow-smpipelines.ipynb
+```
+
 ## License
 
 The contents of this repository are licensed ander the Apache 2.0 License except where otherwise noted.
