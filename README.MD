@@ -56,7 +56,11 @@ sagemaker-workshop-with-ground-truth/ground_truth_object_detection_tutorial/obje
 
 ![kernel](/doc/kernel-ds.png)
 
-- Follow the instructions of the notebook
+- You can monitor Kernel status in the bottom left corner
+
+![kernel-status](/doc/kernel-progress.png)
+
+- Follow the instructions of the notebook. Please note that the Kernel needs about 2-3 minutes to start the first time!
 
 ```diff
 ! Note only one workshop participant should create a private workteam for the labeling job. 
@@ -73,6 +77,9 @@ sagemaker-workshop-with-ground-truth/ground_truth_object_detection_tutorial/obje
 ```
 sagemaker-workshop-with-ground-truth/tf-2-workflow-smpipelines/tf-2-workflow-smpipelines.ipynb
 ```
+- As Kernel select Python 3 (Tensor_Flow 2.3 Python 3.7 CPU Optimized)
+
+![kernel-tensorflow](/doc/tensorflow-kernel.png)
 
 ## License
 
